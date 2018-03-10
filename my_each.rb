@@ -2,6 +2,9 @@
 
 def my_each(array)
   array.while do |i|
-    puts i
+    yield
+  end
+  yielding puts i
   end
 end
+
