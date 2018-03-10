@@ -1,9 +1,11 @@
 
 
 def my_each(array)
-  array.while do |i|
+  counter = 0
+  while counter < array.length do |i|
     yielding do
-      puts i
+      return i
   end
+  counter += 1
 end
 end
