@@ -7,6 +7,7 @@ def my_each(array)
     end
     counter += 1
   end
-  yielding do
+  my_each do
     return i
+  end
 end
