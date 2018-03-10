@@ -5,7 +5,7 @@ def my_each(array)
   while counter < array.length
     yield
     return array[counter]
-  end
+  
     counter += 1
   end
 end
