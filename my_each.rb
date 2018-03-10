@@ -7,4 +7,3 @@ def my_each(array)
   yielding puts i
   end
 end
-
