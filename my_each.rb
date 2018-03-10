@@ -3,9 +3,7 @@
 def my_each(array)
   counter = 0
   while counter < array.length do |i|
-    yielding do
-      return i
+    yielding {return i}
+    counter += 1
   end
-  counter += 1
-
 end
