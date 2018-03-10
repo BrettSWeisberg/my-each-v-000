@@ -7,3 +7,4 @@ def my_each(array)
     return i
     counter += 1
   end
+end
